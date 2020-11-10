@@ -569,6 +569,8 @@ fill: var(--accent-cl);
 
 .social-icons {
     display: flex;
+    padding: 0 0;
+    margin-left: 32px;
 }
 
 .social-icons-link {
