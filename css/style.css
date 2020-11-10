@@ -206,7 +206,7 @@ fill: var(--accent-cl);
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    color: #ffffff;
+    color: var(--white);
     font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
@@ -220,7 +220,7 @@ fill: var(--accent-cl);
     padding: 10px 32px;
     background-color: var(--accent-cl);
     font-family: Roboto;
-    color: #ffffff;
+    color: var(--white);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
@@ -234,8 +234,8 @@ fill: var(--accent-cl);
 }
 
 .hero .button:hover,
-    .button:focus {
-    background: #188ce8;
+.button:focus {
+    background: var(--accent-cl)
 }
 
 .features-list .items {
