@@ -173,9 +173,10 @@ body {
     text-decoration: none;
 }
 
-.header .address-link:hover, .link-icons
-.address-link:focus, .link-icons{
-    color: var(--accent-cl);
+.header .address-link:hover,
+.address-link:focus {
+color: var(--accent-cl);
+fill: var(--accent-cl);
 }
 
 .link-icons {
