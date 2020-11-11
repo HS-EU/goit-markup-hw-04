@@ -541,7 +541,6 @@ fill: var(--accent-cl);
     background-color: var(--accent-cl);
 }
 
-
 /* --Портфолио-- */
 .portfolio .filter {
     display: flex;
