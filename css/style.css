@@ -483,6 +483,43 @@ fill: var(--accent-cl);
     text-decoration: none;
 }
 
+.footer-social-icons {
+    display: flex;
+    padding: 0 0;
+    margin-left: 32px;
+}
+
+.footer-social-icons-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--main-text-cl);
+    border-radius: 50%;
+}
+
+.footer-social-icons-svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--white);
+}
+
+.footer-social-icons-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-social-icons-link:hover .social-icons-svg,
+.footer-social-icons-link:focus .social-icons-svg {
+    fill: var(--white);
+}
+
+.footer-social-icons-link:hover,
+.footer-social-icons-link:focus {
+    background-color: var(--accent-cl);
+}
+
+
 /* --Портфолио-- */
 .portfolio .filter {
     display: flex;
