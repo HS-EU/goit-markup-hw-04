@@ -160,8 +160,13 @@ body {
     margin-right: 50px;
 }
 
+.contacts .address-link{
+    display: flex;
+    align-items: center;
+}
+
 .header .address-link {
-    display: block;
+    fill: var(--main-text-cl);
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--main-text-cl);
