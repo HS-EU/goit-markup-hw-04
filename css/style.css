@@ -509,7 +509,6 @@ fill: var(--accent-cl);
 .footer-social-icons {
     display: flex;
     padding: 0 0;
-    margin-left: 32px;
 }
 
 .footer-social-icons-link {
