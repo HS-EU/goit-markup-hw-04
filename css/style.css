@@ -440,11 +440,11 @@ fill: var(--accent-cl);
 .container.footer-padding {
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
 }
 
 .footer {
     background-color: var(--dark-bg);
-    height: 252px;
 }
 
 .footer .logo {
@@ -477,6 +477,7 @@ fill: var(--accent-cl);
     text-decoration: none;
 }
 
+
 .footer .link {
     width: 20%;
     display: block;
@@ -487,6 +488,7 @@ fill: var(--accent-cl);
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .footer-social-icons {
@@ -501,7 +503,7 @@ fill: var(--accent-cl);
     align-items: center;
     width: 44px;
     height: 44px;
-    background-color: var(--main-text-cl);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
 
