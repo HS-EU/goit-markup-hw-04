@@ -610,6 +610,7 @@ fill: var(--accent-cl);
 
 .content .title {
     margin-top: 20px;
+    margin-bottom: 0;
     padding-left: 24px;
     color: var(--black);
     font-family: Roboto;
@@ -621,6 +622,7 @@ fill: var(--accent-cl);
 
 .content .type {
     margin-top: 4px;
+    margin-bottom: 0;
     padding-left: 24px;
     color: var(--main-text-cl);
     font-family: Roboto;
